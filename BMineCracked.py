@@ -4,9 +4,6 @@ import urllib.request as urllib
 loop = False
 
 def connect():
-Warning: Stack history is not empty!
-Warning: block stack is not empty!
-
     try:
         urllib.request.urlopen('http://google.com')
     finally:
@@ -54,7 +51,4 @@ if connect():
             print('')
             time.sleep(random.randrange(900, 1800))
             if not loop == True:
-                return None
-            return None
-        None('Please check your internet connection and launch the app again.')
-        return None
+                print("XD CRACKED")
